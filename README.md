@@ -20,7 +20,7 @@ Este repositorio documenta mi progresión intensiva de 1 mes, escalando de JavaS
 - [ ] Setup de servidor Express 100% tipado con Node.js.
 
 ### [ ] Semana 2: Base de Datos con Prisma y Arquitectura Backend
-- [ ] Conexión a MySQL y diseño del Prisma Schema.
+- [ ] Conexión a PostgreSQL y diseño del Prisma Schema.
 - [ ] Generación de Migraciones (aprovechando bases de SQL).
 - [ ] End-to-End Type Safety: Aprovechando los tipos autogenerados por Prisma en el backend.
 - [ ] Controladores, Rutas y separación de responsabilidades.
