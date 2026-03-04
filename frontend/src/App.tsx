@@ -16,7 +16,7 @@ function App() {
   const [editingId, setEditingId] = useState<number | null>(null);
 
   const fetchUsers = () => {
-    fetch('http://localhost:3000/api/users')
+    fetch('https://typescript-progreso.onrender.com/api/users')
       .then(response => response.json())
       .then(data => setUsers(data))
       .catch(error => console.error("Error:", error));
@@ -33,7 +33,7 @@ function App() {
     try {
       if (editingId) {
         // MODO EDICIÓN (PUT)
-        const response = await fetch(`http://localhost:3000/api/users/${editingId}`, {
+        const response = await fetch(`https://typescript-progreso.onrender.com/api/users/${editingId}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ name, email }),
@@ -47,7 +47,7 @@ function App() {
         }
       } else {
         // MODO CREACIÓN (POST) - Lo que ya tenías
-        const response = await fetch('http://localhost:3000/api/users', {
+        const response = await fetch('https://typescript-progreso.onrender.com/api/users', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ name, email }),
@@ -69,7 +69,7 @@ function App() {
   const handleDelete = async (id: number) => {
     if (!window.confirm("¿Seguro que quieres eliminar este usuario?")) return;
     try {
-      const response = await fetch(`http://localhost:3000/api/users/${id}`, {
+      const response = await fetch(`https://typescript-progreso.onrender.com/api/users/${id}`, {
         method: 'DELETE',
       });
       if (response.ok) fetchUsers();
