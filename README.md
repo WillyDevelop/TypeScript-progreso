@@ -1,8 +1,8 @@
-# 🚀 Full-Stack TypeScript Bootcamp - Learning Journey
+# typescript, sql, react
 
-Este repositorio documenta mi progresión intensiva de 1 mes, escalando de JavaScript Avanzado y SQL a una arquitectura Full-Stack TypeScript robusta y lista para producción.
+Este repositorio documenta mi progresión escalando de JavaScript Avanzado y SQL a una arquitectura Full-Stack TypeScript robusta y lista para subir a internet.
 
-## 🛠️ Tech Stack Principal
+## Stack Principal
 - **Core:** TypeScript (Strict Mode `true`)
 - **Backend:** Node.js, Express
 - **Base de Datos:** PostgreSQL, Prisma ORM
@@ -10,8 +10,6 @@ Este repositorio documenta mi progresión intensiva de 1 mes, escalando de JavaS
 - **Infraestructura:** Render / Railway (Backend) & Vercel (Frontend)
 
 ---
-
-## 🗓️ Roadmap del Bootcamp (4 Semanas)
 
 ### [ ] Semana 1: Fundamentos de TypeScript y Node.js
 - [ ] Configuración del compilador TS (`tsconfig.json`) orientada a producción.
@@ -31,7 +29,7 @@ Este repositorio documenta mi progresión intensiva de 1 mes, escalando de JavaS
 - [ ] Tipado avanzado de Hooks (`useState`, `useReducer`, eventos del DOM).
 - [ ] Integración y consumo de la API Backend.
 
-### [ ] Semana 4: Despliegue (Deployment) y Pulido
+### [ ] Semana 4: Despliegue y Pulido
 - [ ] Gestión segura de variables de entorno (`.env`).
 - [ ] Setup de Base de Datos PostgreSQL en la nube.
 - [ ] Deploy continuo del Backend (Render / Railway).
